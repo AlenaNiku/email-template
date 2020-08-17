@@ -26,4 +26,25 @@ img {
     width: 100%;
     table-layout: fixed;
     background-color: #F7F0EA;
+    padding-bottom: 40px;
+}
+
+.webkit {
+    max-width: 600px;
+    background-color: #ffffff;
+}
+
+.outer {
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #111111;
+}
+
+.header {
+    background-color: coral;
+    padding: 10px;
+    text-align: center;
 }

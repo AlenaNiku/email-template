@@ -43,11 +43,23 @@ img {
     left: 190px;
 }
 
+.description {
+    text-align: center;
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+
+.description1 {
+    text-align: center;
+    font-family: Lyon Display;
+    font-style: italic;
+}
+
+
 .three-columns {
     text-align: center;
     font-size: 0;
-    padding-top: 20px;
-    padding-bottom: 10px;
 }
 
 .three-columns .column {
@@ -75,8 +87,7 @@ a {
 
 @media screen and (max-width: 600px) { 
     .header {
-        width: 130px;
-    
+        width: 130px; 
     }
 }
         
@@ -86,4 +97,8 @@ a {
        display: flexbox;
        justify-content: center;
     }
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
 }

@@ -102,6 +102,9 @@ a {
     p.description1 {
         font-size: 15px;
     }
+    .logo {
+        width: 60px!important;
+    }
 
 }
         
@@ -111,5 +114,8 @@ a {
     }
     p.description1 {
         font-size: 15px;
+    }
+    .logo {
+        width: 60px!important;
     }
 }

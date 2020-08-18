@@ -42,9 +42,8 @@ p {
 }
 
 .header {
-    position: relative;
-    top: 80px;
-    left: 210px;
+    max-width: 100%;
+    height: auto;
 }
 
 .description {

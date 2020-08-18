@@ -53,8 +53,8 @@ p {
 
 
 .description1 {
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    font-family: Lyon Display;
     font-style: italic;
     margin-bottom: 0;
 }
@@ -96,12 +96,20 @@ a {
     .header {
         width: 130px; 
     }
+    p.description {
+        font-size: 20px;
+    }
+    p.description1 {
+        font-size: 15px;
+    }
+
 }
         
 @media screen and (max-width: 400px) { 
-    .header {
-       width: 130px;
-       display: flexbox;
-       justify-content: center;
+    p.description {
+        font-size: 20px;
+    }
+    p.description1 {
+        font-size: 15px;
     }
 }

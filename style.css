@@ -16,12 +16,6 @@ img {
 	border: 0;
 }
 
-@media screen and (max-width: 600px) { 
-}
-        
-@media screen and (max-width: 400px) { 
-}
-
 .wrapper {
     width: 100%;
     table-layout: fixed;
@@ -76,4 +70,20 @@ a {
     text-decoration: none;
     font-size: 16px;
     color: orangered;
+}
+
+
+@media screen and (max-width: 600px) { 
+    .header {
+        width: 130px;
+    
+    }
+}
+        
+@media screen and (max-width: 400px) { 
+    .header {
+       width: 130px;
+       display: flexbox;
+       justify-content: center;
+    }
 }

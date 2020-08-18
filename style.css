@@ -16,6 +16,11 @@ img {
 	border: 0;
 }
 
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
 .wrapper {
     width: 100%;
     table-layout: fixed;
@@ -33,20 +38,18 @@ img {
     width: 100%;
     max-width: 600px;
     border-spacing: 0;
-    font-family: sans-serif;
     color: #111111;
 }
 
 .header {
     position: relative;
     top: 70px;
-    left: 190px;
+    left: 180px;
 }
 
 .description {
     text-align: center;
-    font-size: 25px; 
-    font-weight: bold;
+    font-size: 28px; 
 }
 
 
@@ -54,6 +57,11 @@ img {
     text-align: center;
     font-family: Lyon Display;
     font-style: italic;
+    margin-bottom: 0;
+}
+
+p.description {
+    margin: 2px;
 }
 
 
@@ -74,7 +82,7 @@ img {
 }
 
 .three-columns .content {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 20px;
 }
 
@@ -97,8 +105,4 @@ a {
        display: flexbox;
        justify-content: center;
     }
-}
-
-p {
-    font-family: 'Rubik', sans-serif;
 }
